@@ -59,7 +59,7 @@ header{
 .heading{
     max-width: 1160px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 10px;
 }
 .nav{
     display: flex;
@@ -167,7 +167,7 @@ header{
 
 /* Feature section styles */
 .feature-section{
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 .feature-container{
     display: flex;
@@ -229,6 +229,9 @@ header{
 
 
 /* Fact section styles */
+.fact-section{
+    padding: 0 10px;
+}
 .fact-intro{
     max-width: 550px;
 }
@@ -277,6 +280,9 @@ header{
 .extra-section{
     text-align: center;
     padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .interiors{
     display: grid;
@@ -375,6 +381,9 @@ header{
     .quick-img-content{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
+    }
+    .feature-txt > h2{
+        padding: 8px 100px 8px 20px;
     }
     .interiors{
         grid-template-columns: repeat(1,1fr);
